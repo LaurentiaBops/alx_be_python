@@ -2,7 +2,7 @@
 # based on user input regarding weather conditions
 
 #Ask user to input currentt weather from predefined conditions
-weather_conditions = input("What's the weather like today? (sunny/rainy/cold): ").lower()
+weather_conditions = str(input("What's the weather like today? (sunny/rainy/cold): ")).lower()
 
 #Recommend different clothes depending on weather conditions
 if weather_conditions == "sunny":

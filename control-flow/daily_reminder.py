@@ -9,10 +9,14 @@ time_bound = input("Is it time-bound? (yes/no): ")
 #Define a function that defines reminder message based on user inputs
 def reminder(priority,time):
     match priority:
-        case "high" | "medium" | "low":
+        case "high":
             if time == "yes":
                 print(f"Reminder: '{task_variable}' is a {priority} priority task that requires immediate attention today!")
             elif time == "no":
                 print(f"Note: '{task_variable}' is a {priority} priority task. Consider completing it when you have free time.")
-
+        case "medium":
+            if time == "yes":
+                print(f"Reminder: '{task_variable}' is a {priority} priority task that requires immediate attention today!")
+            elif time == "no":
+                print(f"Note: '{task_variable}' is a {priority} priority task. Consider completing it when you have free time.")
 reminder(priority_variable,time_bound)

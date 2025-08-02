@@ -6,7 +6,7 @@ from datetime import datetime, timedelta
 #Determine the current date and time
 def display_current_datetime ():
    now = datetime.now()
-   print("Current Date and Time:",now) 
+   print("Current Date and Time:",now.strftime("%Y-%m-%d %H:%M:%S")) 
 
 display_current_datetime()
 
@@ -19,5 +19,5 @@ def calculate_future_date ():
 
 calculate_future_date()
 
-if __name__ == "__main__":
-    main()
+#if __name__ == "__main__":
+#    main()

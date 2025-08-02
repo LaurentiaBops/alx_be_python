@@ -13,6 +13,6 @@ def perform_operation(num1, num2, operation):
         if num2 == 0:
             print("Undefined. Number cannot be divided by zero")
 
-        else :
+        elif () :
             return num1 / num2
 

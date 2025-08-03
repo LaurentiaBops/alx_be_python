@@ -1,8 +1,8 @@
 # Convert temperatures between Celsius and Fahrenheit
 
 #Define global variables to store conversion factors
-FAHRENHEIT_TO_CELSIUS_FACTOR = 5 / 9
-CELSIUS_TO_FAHRENHEIT_FACTOR = 9 / 5
+FAHRENHEIT_TO_CELSIUS_FACTOR = 5/9
+CELSIUS_TO_FAHRENHEIT_FACTOR = 9/5
 
 #Function that takes a temperature in Fahrenheit and converts
 #to Celsius

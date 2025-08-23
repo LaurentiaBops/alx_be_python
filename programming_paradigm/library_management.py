@@ -14,6 +14,11 @@ class Book:
         """Convert object to a string"""
         return f"{self.title} by {self.author}"
 
+    def return_book(self):
+        """Marks the book as returned/available"""
+        return self._is_checked_out ==True
+       
+        
 
 
 class Library(Book):
